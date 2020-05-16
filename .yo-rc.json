@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "serverPort": "3020",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": true,
+    "baseName": "driverService",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "packageName": "com.ecab.driver",
+    "packageFolder": "com/ecab/driver",
+    "applicationType": "microservice",
+    "jhipsterVersion": "6.8.0",
+    "creationTimestamp": 1589639820293,
+    "clientPackageManager": "npm"
+  },
+  "entities": [
+    "User",
+    "Driver",
+    "CarDetails"
+  ]
+}
